@@ -7,9 +7,9 @@ const Leader = () => {
       <div className="w-[100%] md:w-[60%]">
         <img src={InteractiveDesktop} />
       </div>
-      <div className="-translate-x-1/4 md:w-[60%] flex items-end">
-        <div className="bg-white px-20 pt-20 space-y-5">
-          <h2 className="text-[20px] md:text-[50px]">
+      <div className="md:-translate-x-1/4 md:w-[60%] flex items-end">
+        <div className="bg-white px-10 md:px-20  pt-10 md:pt-20 text-center md:text-left space-y-5 ">
+          <h2 className="text-[30px] md:text-[50px] font-semibold">
             The LEADER IN INTERACTIVE VR
           </h2>
           <p>
