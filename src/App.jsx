@@ -1,9 +1,12 @@
 import Header from "./Components/Header";
+import Leader from "./Components/Leader";
+
 
 function App() {
   return (
-    <div className={}>
+    <div className="w-dvh cursor-pointer">
       <Header />
+      <Leader/>
     </div>
   );
 }
