@@ -1,15 +1,16 @@
-// import React from 'react'
 import InteractiveDesktop from "../assets/desktop/image-interactive.jpg";
+import InteractiveMobile from "../assets/mobile/image-interactive.jpg"
 
 const Leader = () => {
   return (
-    <div className="px-5 py-10 md:px-20 md:py-20 flex flex-col md:flex-row">
-      <div className="w-[100%] md:w-[60%]">
-        <img src={InteractiveDesktop} />
+    <div className="px-5 py-10 md:px-20 md:py-20 flex flex-col lg:flex-row font-Josefin">
+      <div className="w-[100%] lg:w-[60%] flex items-center justify-center">
+        <img src={InteractiveDesktop} className="hidden md:block" />
+        <img src={InteractiveMobile} className="md:hidden"/>
       </div>
-      <div className="md:-translate-x-1/4 md:w-[60%] flex items-end">
-        <div className="bg-white px-10 md:px-20  pt-10 md:pt-20 text-center md:text-left space-y-5 ">
-          <h2 className="text-[30px] md:text-[50px] font-semibold">
+      <div className="lg:-translate-x-1/4 w-[100%] lg:w-[60%] flex items-end">
+        <div className="bg-white px-10 md:px-20  pt-10 md:pt-20 text-center lg:text-left space-y-5 ">
+          <h2 className="text-[30px] md:text-[50px]">
             The LEADER IN INTERACTIVE VR
           </h2>
           <p>

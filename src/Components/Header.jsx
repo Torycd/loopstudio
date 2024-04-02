@@ -12,7 +12,7 @@ const Header = () => {
         backgroundImage: `url(${
           window.innerWidth < 375 ? smallHeader : desktopHeader
         })`,
-        backgroundSize: "cover auto",
+        backgroundSize: "cover",
         backgroundPosition: "cover",
         height: "100vh",
         width: "100%"

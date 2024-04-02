@@ -1,10 +1,10 @@
-// import React from 'react'
+
 
 const Creation = () => {
   return (
     <div>
-      <h2>Our creations</h2>
-      <button>See all</button>
+      <h2 className="">Our creations</h2>
+      <button className="hidden md:block">See all</button>
     </div>
   );
 };
