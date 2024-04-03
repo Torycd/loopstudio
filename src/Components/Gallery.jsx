@@ -1,4 +1,3 @@
-// import React from 'react';
 import { useMediaQuery } from "react-responsive";
 import { DUMMY_DATA } from "./Data";
 
@@ -11,7 +10,6 @@ const breakpoints = {
 const Gallery = () => {
   const isMobile = useMediaQuery({ query: breakpoints.mobile });
   const isTablet = useMediaQuery({ query: breakpoints.tablet });
-  // const isDesktop = useMediaQuery({ query: breakpoints.desktop });
 
   return (
     <div className="px-5 py-10 md:px-20 md:py-20 grid grid-cols-1 gap-2 lg:grid-cols-4">
