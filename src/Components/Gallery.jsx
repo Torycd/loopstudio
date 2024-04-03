@@ -28,9 +28,11 @@ const Gallery = () => {
           }}
         ></div>
       ))}
-      <button className="hidden md:block border-4 px-7 py-3 tracking-widest border-black hover:bg-black hover:text-white transition-all delay-200">
-        See all
-      </button>
+      <div className="flex justify-center md:hidden mt-5">
+        <button className=" border-4 px-7 py-3  border-black hover:bg-black hover:text-white transition-all delay-200">
+          See all
+        </button>
+      </div>
     </div>
   );
 };
