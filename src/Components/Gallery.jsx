@@ -17,7 +17,7 @@ const Gallery = () => {
     <div className="px-5 py-10 md:px-20 md:py-20 grid grid-cols-1 gap-2 lg:grid-cols-4">
       {DUMMY_DATA.map((itm) => (
         <div
-          key={itm.name1}
+          key={itm.mobileImage}
           className="relative w-full"
           style={{
             backgroundImage: `url(${
@@ -27,7 +27,7 @@ const Gallery = () => {
             height: isMobile ? "200px" : isTablet ? "300px" : "600px",
           }}
         >
-          <div className="absolute bottom-0 left-0 w-full  p-4 text-white  uppercase font-Josefin text-[30px]">
+          <div className="absolute bottom-0 left-0 w-full opacity-80  p-4 text-white  uppercase font-Josefin text-[30px]">
             <h2>{itm.name1}</h2>
             <h2>{itm.name2}</h2>
           </div>

@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <div className="px-5 py-10 md:px-20 w-dvh bg-black text-white flex flex-col md:flex-row justify-between">
+    <div className="px-5 font-Josefin py-10 md:px-20 w-dvh bg-black text-white flex flex-col md:flex-row justify-between">
       <div className="">
-        <div>
+        <div className="flex justify-center md:justify-start">
           <svg
             width="192"
             height="32"
@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
       {/* next section */}
       <div>
-        <ul className="flex space-x-3">
+        <ul className="flex space-x-3 justify-center md:justify-end mt-5 md:mt-0 ">
           <li>
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -64,8 +64,8 @@ const Footer = () => {
             </svg>
           </li>
         </ul>
-        <div>
-          <h3>© 2021 Loopstudios. All rights reserved.</h3>
+        <div className="mt-5 flex justify-center md:justify-end">
+          <h3 className="opacity-50">© 2021 Loopstudios. All rights reserved.</h3>
         </div>
       </div>
     </div>
