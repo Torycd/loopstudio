@@ -18,42 +18,50 @@ import fishlieM from "../assets/mobile/image-fisheye.jpg";
 
 export const DUMMY_DATA = [
   {
-    name: "Earth",
+    name1: "Deep",
+    name2: "earth",
     desktopImage: EarthD,
     mobileImage: EarthM,
   },
   {
-    name: "Night",
+    name1: "Night",
+    name2: "arcade",
     desktopImage: NightD,
     mobileImage: NightM,
   },
   {
-    name: "Soccer",
+    name1: "Soccer",
+    name2: "team VR",
     desktopImage: SoccerD,
     mobileImage: SoccerM,
   },
   {
-    name: "The grid",
+    name1: "The",
+    name2: "grid",
     desktopImage: GridD,
     mobileImage: GridM,
   },
   {
-    name: "From Above the VR",
+    name1: "From up",
+    name2: "above VR",
     desktopImage: vrD,
     mobileImage: vrM,
   },
   {
-    name: "Pocket",
+    name1: "Pocket",
+    name2: "borealis",
     desktopImage: pocketD,
     mobileImage: pocketM,
   },
   {
-    name: "The curiosity",
+    name1: "The",
+    name2: "curiosity",
     desktopImage: curiosityD,
     mobileImage: curiosityM,
   },
   {
-    name: "Make the fishlie",
+    name1: "Make it",
+    name2: "fisheye",
     desktopImage: fishlieD,
     mobileImage: fishlieM,
   },
